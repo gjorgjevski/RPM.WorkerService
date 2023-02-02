@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace RPM.WorkerService.Models
 {
-    public class Pricing
+    public class Prices
     {
-        DateTime DateOfPrice { get; set; }
-        Double Price { get; set; }
+        public int Id { get; set; }
+        public DateTime DateOfPrice { get; set; }
+        public Double Price { get; set; }
     }
 }
