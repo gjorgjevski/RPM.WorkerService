@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace RPM.WorkerService.Models
 {
-    public class PricingRequest
+    public class PricingResponse
     {
-        public RequestCommand Request { get; set; }
+        public CommandResponse Request { get; set; }
         public List<Series> Series { get; set; }
     }
 }

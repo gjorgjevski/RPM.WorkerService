@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPM.WorkerService.Models
 {
-    public class RequestCommand
+    public class CommandResponse
     {
         public string Command { get; set; }
         public string Series_id { get; set; }

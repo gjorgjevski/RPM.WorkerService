@@ -10,9 +10,9 @@ namespace RPM.WorkerService.DataAccess
 {
     public class PricingContext : DbContext
     {
-        public PricingContext(DbContextOptions options) : base(options) { } // calls the base contructor with options
-
+        public PricingContext(DbContextOptions<PricingContext> options) : base(options){}
         public DbSet<Prices> Prices { get; set; }
-        
+       
+
     }
 }
